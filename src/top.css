@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.top{
+  margin: 0;
+  width: 100%;
+  background-color: red;
+}
+
+.but{
+    background-color: red;
+    border: 0px;
+    
+    /* width: 100%;
+    height: fit-content;
+    position: inherit;
+    padding-top:20%;
+     */
+   
+}
+.img{
+    /* margin:auto; */
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+    
+}
+.toprow{
+    display: flex;
+    height: fit-content;
+    
+}
+.column {
+    flex: left;
+    padding: 5px;
+}
+.data{
+    color: white;
+    float: left;
+    font-size:  1.5rem ;
+    /* padding-bottom: 1.5vw; */
+  
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 4px  black;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 24px;
+    width: 24px;
+    border: 1px solid slategrey;
+    /* left: ;
+    bottom: ; */
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #d60a14;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #d60a14;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(22px);
+    -ms-transform: translateX(22px);
+    transform: translateX(25px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+   .serv  {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+  
+  .serv span {
+    list-style: none;
+    flex: 0 0 33.333333%;
+  }
+
+.bigfont{
+  font-size:0.8rem;
+  font-weight: 600;
+}
+
+.large{
+  font-size: 0.9rem;
+}
+.h{
+  font-size: 1rem;
+   font-weight: 500; 
+}
+.sub{
+  font-size: 1rem;
+  font-weight: 400;
+}
+#butt{
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-style: hidden;
+;
+}
+
+@media only screen and (max-width: 480px) {
+
+  }
+

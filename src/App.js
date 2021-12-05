@@ -1,23 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from 'react-bootstrap/Card';
 
+import Top from './top'
+import Head  from './head'
+import Dropship from './status'
+import Shipping from './Shippinop'
+import Payment  from './payment';
+import Order from './OrderDetails';
+import Voucher from './Voucher';
+import OrderAmt from './orderAmt';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+     <Top/>
+     <Head/>
+     <Dropship></Dropship>
+     <Shipping></Shipping>
+     <Payment/>
+     <Order/>
+     <Voucher></Voucher>
+     <OrderAmt/>
     </div>
   );
 }
